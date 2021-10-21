@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Zuhao's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<header>
+    <h1>Zuhao Guo, Software Developer</h1>
+</header>
+<button id="hamburgerButton"><i class="fa fa-bars fa-3x"></i></button>
+<div class="wide-screen-menu">
+    <nav>
+        <a class="nav-option" href="#about"><span>About me</span></a>
+        <a class="nav-option" href="#portfolio-button-div"><span>Portfolio</span></a>
+        <a class="nav-option" href="#contacts"><span>Contacts</span></a>
+    </nav>
+</div>
+<div class="hamburger">
+    <nav>
+        <div class="mobile-nav-options"><a class="nav-option" href="#about"><span>About me</span></a></div>
+        <div class="mobile-nav-options"><a class="nav-option" href="#portfolio"><span>Portfolio</span></a></div>
+        <div class="mobile-nav-options"><a class="nav-option" href="#contacts"><span>Contacts</span></a></div>
+    </nav>
+</div>
+<section id="about">
+    <h2>About me</h2>
+    <img id="profile-photo" src="Images/Profile.png" height="246" width="300"/>
+    <p>
+        Hi, I am Zuhao Guo. I graduated from the University of Maryland with a bachelor's degree in Computer Science.</br>
+        My school course works and personal projects have prepared me to be a proficient programmer. </br>
+        I am very open to learning new knowledge, I like to study new technologies and apply them in practice.
+    </p>
+    <b>Skills:</b>
+    <p>
+        Java, Python, Kotlin, JavaScript, HTML, CSS, React, SQL, and more
+    </p>
+</section>
+<div id="portfolio-button-div">
+    <button id="portfolio-button">Click to show portfolio</button>
+</div>
+<div id="portfolio-div">
+<section id="portfolio">
+    <h2>Portfolio</h2>
+    <div id="whosthere-images">
+        <p>Who's There? - Android Application</p>
+        <img src="Images/WhosThere1.png" height="650" width="300"/>
+        <img src="Images/WhosThere2.png" height="650" width="300"/></br>
+        <button id="modal-button-2" class="open-window">Click for more info</button>
+    </div>
+    <div class="window">
+        <div class="modal" id="modal-2" class="window">
+            <div class="modal-head">
+                <h2>Who's There?</h2>
+            </div>
+            <div class="modal-body">
+                <p>I graduated from the University of Maryland with a bachelor's degree in Computer Science.</br>
+                    My school course works and perso
+                    afbuasoofas fabfobasofboa foasnifaosbf asfoafiasof afoasfooasf.
+                </p>
+                <div class="button-div">
+                    <button id="close-button-2" class="close-buttons">Close</button>
+                </div>
+            </div>
+        </div>
+    <p>To-Do List - Web Application</p>
+    <img src="Images/To-do-list.png" height="400" width="600"/>
+    </br>
+    <div class="window">
+    <div class="modal" id="modal-1">
+        <div class="modal-head">
+            <h2>To-Do List</h2>
+        </div>
+        <div class="modal-body">
+        <p>I graduated from the University of Maryland with a bachelor's degree in Computer Science.</br>
+            My school course works and perso H Hi, I am Zuhao Guo. I graduated from the University of Maryland with a bachelor's degree in Computer Science.</br>
+            My school course works and personal projects have prepared me to be a proficient programmer. </br>
+            I am very open to learning new knowledge, I li, I am Zuhao Guo. I graduated from the University of Maryland with a bachelor's degree in Computer Science.</br>
+            My school course works and personal projects have prepared me to be a proficient programmer. </br>
+            I am very open to learning new knowledge, I l
+            afbuasoofas fabfobasofboa foasnifaosbf asfoafiasof afoasfooasf.
+        </p>
+            <div class="button-div">
+                <button id="close-button-1" class="close-buttons">Close</button>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div id="overlay"></div>
+    <button id="modal-button-1" class="open-window">Click for more info</button>
+    </div>
+</section>
+</div>
+<section id="contacts">
+    <h2>Contacts</h2>
+    <div id="msg-div">
+        <h3>You can leave me a message here</h3>
+        <input type="text" id="msg-input" placeholder="Enter your message">
+        <button id="msg-button">Send</button>
+    </div>
+    <h3>You can also reach me with social media</h3>
+    <p>
+        <b>Email:</b><span>ianguo25@gmail.com</span></br>
+        <b>Phone Number: </b><span>240-404-8733</span></br>
+        <b>Linkedin: </b><a href="https://www.linkedin.com/in/zuhao-guo-1409ba159/" target="_blank">https://www.linkedin.com/in/zuhao-guo-1409ba159/</a> </br>
+        <b>GitHub: </b> <a href="https://github.com/zhg17" target="_blank">https://github.com/zhg17</a>
+    </p>
+</section>
+<footer>
+    <div id="footer-images">
+        <a href="https://www.instagram.com/_zuhao_/" target="_blank"><img src="Images/Insta-logo.png" height="50px" width="50px"></a>
+        <a href="https://www.facebook.com/iyan.guo/" target="_blank"><img id="fb" src="Images/Fb.png" height="40px" width="40px"></a>
+    </div>
+</footer>
+<script src="scripts.js"></script>
+</body>
+</html>

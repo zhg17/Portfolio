@@ -1,0 +1,243 @@
+body {
+    margin: 0;
+    background-color: black;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+h1 {
+    padding: 40px;
+    margin-top: 0;
+    background-color: black;
+    color: white;
+    font-size: 50px;
+    background-image: url("Images/headerfooter.jpg");
+}
+
+#profile-photo {
+    margin-left: 20px;
+    float: right;
+}
+
+#contacts {
+    margin-top: 200px;
+    margin-bottom: 40px;
+}
+
+
+nav {
+    text-align: center;
+}
+
+#portfolio {
+    margin-top: 10px;
+    text-align: center;
+}
+
+#portfolio-div {
+    display: none;
+}
+
+#portfolio-button-div {
+    text-align: center;
+    margin-top: 250px;
+    margin-bottom: 10px;
+}
+
+#portfolio-button {
+    margin-top: 20px;
+    color: orange;
+    font-size: 15px;
+    background-color: black;
+    border: orange solid 3px;
+    margin-bottom: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#about {
+    text-align: left;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+header {
+    text-align: center;
+    background-color: darkslategrey;
+}
+
+footer {
+    padding: 40px;
+    text-align: center;
+    background-image: url("Images/headerfooter.jpg");
+}
+
+span:hover {
+    color: yellow;
+}
+
+
+section {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.nav-option {
+    color: orange;
+    margin: 70px;
+}
+
+button {
+    border-radius: 25px;
+}
+
+.open-window {
+    padding: 5px;
+    margin-top: 20px;
+    color: orange;
+    font-size: 15px;
+    background-color: black;
+    border: orange solid 3px;
+    margin-bottom: 50px;
+}
+
+a {
+    color: orange;
+}
+
+a:visited {
+    color: yellow;
+}
+
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    color: black;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    border: solid black 2px;
+    border-radius: 10px;
+    z-index: 10;
+    background-color: lightgrey;
+    width: 500px;
+    max-width: 80%;
+}
+
+#msg-button {
+    padding: 5px;
+    margin-top: 20px;
+    color: orange;
+    font-size: 15px;
+    background-color: black;
+    border: orange solid 3px;
+    margin-bottom: 50px;
+}
+
+
+.modal.active {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.modal-head {
+    text-align: center;
+    display: block;
+}
+
+.button-div {
+    text-align: center;
+}
+
+.modal-body {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 25px;
+    text-align: left;
+}
+
+#overlay {
+    position: fixed;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .5);
+    transition: 200ms ease-in-out;
+    pointer-events: none;
+}
+
+#msg-div {
+    margin-bottom: 30px;
+}
+
+span {
+    color: orange;
+}
+
+#fb {
+    margin-bottom: 5.5px;
+    margin-left: 20px;
+}
+
+#footer-images {
+    text-align: center;
+}
+
+
+#overlay.active {
+    opacity: 1;
+    pointer-events: all;
+}
+
+
+#hamburgerButton {
+    display: none;
+}
+
+
+.mobile-screen-menu {
+    display: none;
+}
+
+.hamburger {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    #hamburgerButton {
+        display: block;
+        margin-left: 40px;
+        height: 20px;
+        width: 40px;
+        background-color: black;
+        border: none;
+        color: orange;
+    }
+
+    .wide-screen-menu {
+        display: none;
+    }
+
+    .mobile-nav-options {
+        padding: 10px;
+    }
+
+    .mobile-nav-options:hover {
+        padding: 20px;
+        background-color: dimgrey;
+    }
+
+    .hamburger.active {
+        border: orange solid 2px;
+        margin-top: 50px;
+        border-radius: 10px;
+        display: block;
+        text-align: center;
+    }
+
+}
